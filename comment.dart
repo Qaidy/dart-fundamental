@@ -1,13 +1,12 @@
 //  comment satu baris
 print("Hello");
 
-/*
-comment
-lebih dari satu baris
-*/
-print("Hello");
+/**
+ * comment 
+ * lebih dari
+ * satu baris
+ */
 
-/// [sayHello]
 void main() => sayHello();
 
 void sayHello() => print("Hello");
